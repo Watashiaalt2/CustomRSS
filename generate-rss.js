@@ -44,9 +44,7 @@ async function buildFeed() {
       <guid isPermaLink="false">zaobao-${escapeXml(item.id)}</guid>
       <pubDate>${new Date(item.timestamp * 1000).toUTCString()}</pubDate>
       <category>${escapeXml(item.category_label)}</category>
-      <description>${cdata(
-        (item.thumbnail ? `<p><img src="${escapeXml(item.thumbnail)}" alt="" /></p>` : '') + `<p>${escapeXml(item.summary)}</p>`
-      )}</description>${item.thumbnail ? `
+      <description>${cdata(item.summary)}</description>${item.thumbnail ? `
       <media:thumbnail url="${escapeXml(item.thumbnail)}" />` : ''}
     </item>`)
       .join('');
