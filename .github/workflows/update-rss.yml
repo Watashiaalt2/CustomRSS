@@ -2,8 +2,8 @@ name: Update RSS Feed
 
 on:
   schedule:
-    # Runs every six hours at minute 0 (UTC)
-    - cron: '0 */6 * * *'
+    # Runs every six hours at minute 17 (UTC)
+    - cron: '17 */6 * * *'
   workflow_dispatch: # Allows you to trigger it manually via the Actions tab
   push:
     branches: [main]
