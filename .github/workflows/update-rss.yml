@@ -38,3 +38,30 @@ jobs:
             git commit -m 'Automated RSS Feed Update'
             git push
           fi
+
+      - name: Prepare Pages feed
+        run: |
+          mkdir -p _site
+          cp feed.xml _site/feed.xml
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    concurrency:
+      group: github-pages
+      cancel-in-progress: false
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy feed to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
