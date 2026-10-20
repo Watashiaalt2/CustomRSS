@@ -3,7 +3,7 @@ const fs = require('fs');
 
 const API_URL = 'https://www.zaobao.com.sg/_plat/api/v2/client/site-search';
 const SEARCH = { searchTerm: '刘怡伶', page: 1, pageSize: 100, sort: 'date' };
-const SITE_URL = 'https://benchuangxd.github.io/CustomRSS/';
+const SITE_URL = 'https://Watashiaalt2.github.io/CustomRSS/';
 const FEED_URL = `${SITE_URL}feed.xml`;
 
 const escapeXml = (s = '') =>
@@ -24,7 +24,7 @@ async function buildFeed() {
       headers: {
         'Content-Type': 'application/json',
         Accept: 'application/json',
-        'User-Agent': 'Mozilla/5.0 (compatible; CustomRSS/1.0; +https://github.com/benchuangxd/CustomRSS)',
+        'User-Agent': 'Mozilla/5.0 (compatible; CustomRSS/1.0; +https://github.com/Watashiaalt2/CustomRSS)',
       },
       body: JSON.stringify(SEARCH),
     });
