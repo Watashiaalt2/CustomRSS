@@ -5,8 +5,17 @@
     <link>https://Watashiaalt2.github.io/CustomRSS/</link>
     <description>联合早报 search results for “刘怡伶”</description>
     <language>zh-cn</language>
-    <lastBuildDate>Tue, 29 Sep 2026 07:24:26 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 25 Oct 2026 15:03:08 GMT</lastBuildDate>
     <atom:link href="https://Watashiaalt2.github.io/CustomRSS/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title><![CDATA[尚达曼为慈善击手鼓 “总统挑战之夜”筹得1104万元]]></title>
+      <link>https://www.zaobao.com.sg/entertainment/story20261025-9893384</link>
+      <guid isPermaLink="false">zaobao-9893384</guid>
+      <pubDate>Sun, 25 Oct 2026 15:03:08 GMT</pubDate>
+      <category>entertainment</category>
+      <description><![CDATA[星期天（10月25日）晚上举行的《总统挑战之夜2026》电视筹款节目，共筹得1104万5752元，款项将捐给60个受益团体。]]></description>
+      <media:thumbnail url="https://cassette.sphdigital.com.sg/image/zaobao/aa494e009499d470129ae4b38a53e248a2ed48b0047d40eae091f2ebb203eb50" />
+    </item>
     <item>
       <title><![CDATA[为慈善助阵 尚达曼总统将与郑惠玉同台击马来手鼓]]></title>
       <link>https://www.zaobao.com.sg/entertainment/story20260929-9754393</link>
@@ -886,15 +895,6 @@
       <category>entertainment</category>
       <description><![CDATA[密宅]]></description>
       <media:thumbnail url="https://cassette.sphdigital.com.sg/image/zaobao/211c7c2f564447bebe50acfd1075f5aefe86fa364e84bb1cfb5bd8da3036d7a6" />
-    </item>
-    <item>
-      <title><![CDATA[霸凌帮自相残杀 惩恶大快人心]]></title>
-      <link>https://www.zaobao.com.sg/entertainment/story20230315-1372668</link>
-      <guid isPermaLink="false">zaobao-782090</guid>
-      <pubDate>Tue, 14 Mar 2023 21:00:10 GMT</pubDate>
-      <category>entertainment</category>
-      <description><![CDATA[可在Netflix观看]]></description>
-      <media:thumbnail url="https://cassette.sphdigital.com.sg/image/zaobao/8c784a85117cc316527e1d9362013c536e3d06259b3339134fdc620e7f98c6c1" />
     </item>
   </channel>
 </rss>
